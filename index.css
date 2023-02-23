@@ -1,0 +1,115 @@
+body{
+  background-image: url(2023-01-19_19.26.45.png) ;
+  background-repeat: no-repeat;
+  
+  
+  }
+.h1{
+color: rgb(223, 235, 247);
+font-size: 40px;
+margin-top: 160px;
+font-family: MV Boli;
+}
+img{
+width: 400px;
+height:250px ;
+margin-top:90px ;
+
+}
+.p{
+  color: rgb(223, 235, 247);
+font-size: 20px;
+
+}
+a{
+  color: rgb(253, 74, 3);
+font-size: 20px;
+text-decoration:none ;
+}
+a:hover{
+color: rgb(223, 235, 247);
+
+
+
+}
+.beb1{
+display: inline-block;
+margin-left: 20%;
+
+
+}
+.beb2{
+  display: inline-block;
+  margin-left: 20%;
+  
+  
+  }
+
+.beb3{
+display: inline-block;
+margin-left: 20%;
+
+
+}
+.beb4{
+  display: inline-block;
+  margin-left: 20%;
+  
+  
+  }
+  .smile{
+position: fixed;
+top: 0%;
+left: 0%;
+animation: cal 2s infinite;
+  }
+  .smile2{
+    position: fixed;
+    top: 5%;
+    right: 2%;
+    animation: cal2 4s infinite;
+      }
+      .smile3{
+        position: fixed;
+        top: 35%;
+        left: 0%;
+        animation: cal3 5s infinite;
+          }
+          .smile4{
+            position: fixed;
+            top: 60%;
+            right: 2%;
+            animation: cal4 3s infinite;
+              }
+@keyframes cal {
+0% {width: 400px;height: 250px;}
+  100% {width: 450px;height: 300px;}
+  
+
+
+}
+@keyframes cal2 {
+  0%{ transform: rotate(0deg);}
+    100%{transform: rotate(360deg)}
+    
+  
+  
+  }
+  @keyframes cal3 {
+    0%{width: 350px;height: 250px; transform: rotate(0deg);}
+      100%{width: 350px;height: 300px; height: 250px; transform: rotate(360deg)}
+      
+    
+    
+    }
+    @keyframes cal4 {
+      0%{width: 4px;height: 250px;}
+        100%{width: 420px;height: 280px;}
+        
+      
+      
+      }
+
+
+
+
